@@ -4,7 +4,7 @@
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 {{ __('Kriteria') }}
             </h2>
-            <a href="/kriteria/create" class="px-3 py-2  bg-green-500 text-white">+ Tambah Alternatif</a>
+            <a href="/kriteria/create" class="px-3 py-2  bg-green-500 text-white">+ Tambah Kriteria</a>
 
         </div>
     </x-slot>

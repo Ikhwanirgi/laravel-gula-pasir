@@ -44,7 +44,8 @@ Route::middleware('auth')->group(function () {
     
     Route::get('/kriteria/edit/{id}',[KriteriaController::class, 'edit'])->name('kriteria.edit');
     Route::put('/kriteria/{id}',[KriteriaController::class, 'update'])->name('kriteria.update');
-    
+    Route::post('/kriteria/store',[KriteriaController::class, 'store'])->name('kriteria.store');
+
     Route::resource('/normalisasi', NormalisasiController::class);
     Route::resource('/hasil',HasilController::class);
 
